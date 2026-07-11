@@ -1,15 +1,13 @@
 .callout {
-	
+    max-width: 100%;
+    margin: 0%;
+    background-color: gray;
+    color: aliceblue;
+
 }
 
-.callout img {
-	
-}
+.callout img {}
 
-blockquote {
-	
-}
+blockquote {}
 
-cite {
-	
-}
+cite {}
