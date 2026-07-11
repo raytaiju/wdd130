@@ -24,7 +24,7 @@ h1 {
     color: #222;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -34,6 +34,17 @@ img {
 
 p {
     padding: 0;
+}
+
+aside {
+    max-width: 840px;
+    width: 40rem;
+    margin: 1rem auto;
+    border: 1px solid rgb(0 0 0 /0.1);
+    padding: 1rem;
+    background-color: whitesmoke;
+    color: #222;
+    text-align: center;
 }
 
 aside img {
