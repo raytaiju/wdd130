@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: #222;
     padding: 10px;
@@ -17,7 +23,7 @@ main {
     padding: 1rem;
     background-color: whitesmoke;
     color: #222;
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
@@ -30,6 +36,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 50px #ccc;
+    float: right;
 }
 
 p {
@@ -39,12 +46,13 @@ p {
 aside {
     max-width: 840px;
     width: 40rem;
-    margin: 1rem auto;
-    border: 1px solid rgb(0 0 0 /0.1);
-    padding: 1rem;
-    background-color: whitesmoke;
     color: #222;
     text-align: center;
+}
+
+aside h2 {
+    position: relative;
+    top: 40px;
 }
 
 aside img {
@@ -56,4 +64,12 @@ footer {
     margin-top: 1rem;
     border-top: 1px solid #222;
     text-align: center;
+}
+
+/* class selectors */
+.box {
+    margin: 1rem auto;
+    border: 1px solid rgb(0 0 0 /0.1);
+    padding: 1rem;
+    background-color: #ddd;
 }
