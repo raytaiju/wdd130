@@ -4,8 +4,8 @@
     --accent1-color: #63a5db;
     --accent2-color: #6db835;
 
-    --title-font: "Cal Sans", sans-serif;
-    --body-font: "Elms Sans", sans-serif;
+    --title-font: arial, sans-serif;
+    --body-font: Helvetica, sans-serif;
 }
 
 * {
@@ -66,15 +66,17 @@ h1 {
     color: var(--secondary-color);
 }
 
-article {
-
+.hero article {
+    position: absolute;
+    bottom: -5px;
     text-align: left;
     font-size: 14px;
     background-color: var(--accent1-color);
 }
 
 .hero article img {
+
     float: right;
-    width: 100px;
+    width: 90px;
 
 }
