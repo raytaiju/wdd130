@@ -133,3 +133,20 @@ section div img {
     justify-content: center;
     align-items: center;
 }
+
+figure img {
+    margin: 0 2rem;
+}
+
+section ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 2rem;
+}
+
+figcaption {
+    text-align: center;
+}
