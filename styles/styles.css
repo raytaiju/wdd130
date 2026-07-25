@@ -4,30 +4,52 @@
     box-sizing: border-box;
 }
 
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: #222;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 main {
     max-width: 840px;
-    width: 40rem;
-    margin: 1rem auto;
+    width: 30rem;
+    margin: 1rem;
     border: 1px solid rgb(0 0 0 /0.1);
-    padding: 1rem;
+    padding: 2rem;
     background-color: whitesmoke;
     color: #222;
     text-align: left;
+    grid-column: 2/3;
+
 }
 
 h1 {
     color: #222;
+    border-bottom: solid #222;
+    margin: 2rem;
 }
 
 main img {
@@ -37,6 +59,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 50px #ccc;
     float: right;
+    margin: 1rem;
 }
 
 p {
@@ -45,9 +68,13 @@ p {
 
 aside {
     max-width: 840px;
-    width: 40rem;
+    width: 20rem;
     color: #222;
     text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
 }
 
 aside h2 {
