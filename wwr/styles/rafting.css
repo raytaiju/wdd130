@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #101a26;
-    --secondary-color: #fff4ed;
-    --accent1-color: #63a5db;
+    --primary-color: #7A8B99;
+    --secondary-color: #1A2229;
+    --accent1-color: #fff;
     --accent2-color: #6db835;
 
     --title-font: arial, sans-serif;
@@ -20,29 +20,72 @@ body {
     color: var(--secondary-color);
 }
 
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--accent1-color);
+}
+
+nav {
+    grid-column: 2/4;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent2-color);
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 1.5rem;
+    width: 80px;
+    text-decoration: none;
+    color: var(--accent1-color);
+}
+
 header,
 main,
 footer {
     width: 840px;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 
 h1,
 h2 {
     font-family: var(--title-font);
     color: var(--accent1-color);
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
 }
 
 nav,
 p,
 section,
 article {
-    margin: 16px;
+    margin: 20px;
     padding: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--accent2-color);
 }
 
 .socialmedia a {
     text-decoration: none;
+
 }
 
 .hero {
@@ -79,4 +122,14 @@ h1 {
     float: right;
     width: 90px;
 
+}
+
+section div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section div img {
+    justify-content: center;
+    align-items: center;
 }
