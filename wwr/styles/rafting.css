@@ -145,6 +145,7 @@ section div img {
 
 figure img {
     margin: 0 2rem;
+    border: 2px var(--secondary-color) solid;
 }
 
 section ul {
@@ -187,10 +188,6 @@ textarea {
 
 .lower {
     background-color: var(--accent1-color);
-}
-
-figure img {
-    border: 2px var(--secondary-color) solid;
 }
 
 figcaption {
