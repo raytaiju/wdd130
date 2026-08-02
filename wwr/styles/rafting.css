@@ -83,6 +83,15 @@ footer {
     background-color: var(--accent2-color);
 }
 
+p {
+    text-align: center;
+}
+
+.head {
+    font-size: 50px;
+    font-weight: 1000;
+}
+
 .socialmedia a {
     text-decoration: none;
 
@@ -147,6 +156,48 @@ section ul {
     margin: 2rem;
 }
 
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.poll-item {
+    margin: 1rem;
+    display: grid;
+}
+
+.radio {
+    margin: .5rem;
+}
+
+button {
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+
+.subscribe {
+    margin: 1rem;
+}
+
+input,
+textarea {
+    padding: 1rem;
+}
+
+.lower {
+    background-color: var(--accent1-color);
+}
+
+figure img {
+    border: 2px var(--secondary-color) solid;
+}
+
 figcaption {
     text-align: center;
+}
+
+.employee-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
